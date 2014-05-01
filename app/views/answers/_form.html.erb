@@ -1,0 +1,9 @@
+<%= render("layouts/errors", :object => @answer) %>
+
+<div class="new_answer">
+  <%= form_for @answer, remote: true do |f| %>
+    <%= f.text_area :content, cols: 60, rows: 10, placeholder: "Your Answer Here" %>
+    <%= f.hidden_field :question_id, value: @question.id %>
+    <%= f.submit class: "btn btn-success" %>
+  <% end %>
+</div>

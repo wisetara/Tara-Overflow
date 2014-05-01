@@ -1,0 +1,31 @@
+<<<<<<< HEAD
+== 1README
+
+##Stack Overflow - Epicodus Project - Pairs: Tara Scherner de la Fuente and Jason Hamilton
+#Let's make a clone of Stack Overflow.
+
+-As a user, I want to ask a question, so that I can get help with a programming problem I'm having. Users must have an account and sign in to ask questions.
+
+-As a user, I want to answer a question, so that I can help somebody else out. Use AJAX to add a response to the question's page without reloading it!
+
+-As a user, I want to view a questions and its responses, so that I can get help if I'm having the same problem.
+
+-As a user who asked a question, I want to choose the best answer, so that it is displayed before the other answers and future users see it first. Use AJAX when the user makes their choice, so that the page doesn't need to reload.
+
+-As a user who didn't ask a question, I want to vote on which answer I think is best, so that higher-voted answers display higher on the page. Another good candidate for AJAX! Hint: Make votes a join table between users and answers.
+
+=======
+== README
+
+#Stack Overflow - Epicodus Project - Pairs: Tara Scherner de la Fuente and Jason Hamilton
+#Let's make a clone of Stack Overflow.
+
+-As a user, I want to ask a question, so that I can get help with a programming problem I'm having. Users must have an account and sign in to ask questions.
+
+-As af user, I want to answer a question, so that I can help somebody else out. Use AJAX to add a response to the question's page without reloading it!
+
+-As a user, I want to view a questions and its responses, so that I can get help if I'm having the same problem.
+
+-As a user who asked a question, I want to choose the best answer, so that it is displayed before the other answers and future users see it first. Use AJAX when the user makes their choice, so that the page doesn't need to reload.
+
+-As a user who didn't ask a question, I want to vote on which answer I think is best, so that higher-voted answers display higher on the page. Another good candidate for AJAX! Hint: Make votes a join table between users and answers.

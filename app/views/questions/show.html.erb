@@ -1,0 +1,17 @@
+<div class="question_block">
+  <h1 style="color:#f84;"><%= @question.title %></h1>
+
+  <span class="question_author" style="color:#3af">Author: <%= @question.user.username %></span><br><br>
+
+  <div class="question_content">
+    <%= @question.content %>
+  </div><br>
+
+
+</div>
+
+<span class="the_new_answer"><%= link_to "New Answer", new_answer_path(question_id: @question.id), id: "new_answer_link", remote: true %></span>
+
+<% @question.answers.each do |answer| %>
+  <div class="another_answer" style="margin-top:10px;"><%= answer.content %><br>&nbsp; &nbsp; &nbsp; By: <%= answer.user.name %></div>
+<% end %>
